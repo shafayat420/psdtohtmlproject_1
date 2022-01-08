@@ -1,0 +1,341 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+
+
+}
+a,a:hover{
+	text-decoration: none;
+}
+.header-section{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.header-section .bg-light{
+	background: transparent !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0px 0px 0px 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover, .header-section .navbar-light .navbar-nav .nav-link:focus{
+	color: #ed1c24;
+}
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.banner .banner-inner h1{
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: 500;
+	color: #fff;
+}
+.banner .banner-inner .sign{
+	padding: 0px 0px 40px 0px;
+}
+.banner .banner-inner p{
+	color: #fff;
+	padding: 30px 0px 0px 0px;
+}
+.button-groups{
+	width: 100%;
+	padding: 50px 0px 0px 0px;
+}
+.button-groups .btn-primary{
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    padding: 15px 35px;
+    letter-spacing: 2px;
+    margin: 0px 20px 0px 0px;
+}
+.button-groups .btn-primary:hover{
+	background-color: #ed1c24;
+}
+.button-groups .btn-info{
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    padding: 15px 35px;
+    letter-spacing: 2px;
+}
+.button-groups .btn-info:hover{
+	background-color: #ed1c24;
+}
+.free{
+	text-align: center;
+	background-color: #f8f8f8;
+}
+.title h1{
+	text-align: center;
+	padding: 60px 0px 0px 0px;
+	line-height: 55px;
+	font-weight: 700;
+}
+.bold{
+	color: #ed1c24;
+}
+.inner{
+	padding: 30px 0px 30px 0px;
+}
+.about{
+	text-align: center;
+	padding: 60px 0px 0px 0px;
+	line-height: 55px;
+	font-weight: 700;
+}
+.about p{
+	text-align: center;
+	line-height: 55px;
+	font-weight: 500;
+}
+.who .title-1 h6{
+	padding: 0px 15px 0px 0px;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 600;
+}
+.who .title-1 h6 img{
+	padding: 0px 15px 0px 0px;
+}
+.free-1{
+	width: 100%;
+	background: url("../images/free.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 40px 0px 40px 0px;
+}
+.free-1 h1{
+	color: #fff;
+	padding: 30px 0px 20px 0px;
+}
+.reed{
+	color: #ed1c24;
+}
+.free-1 p{
+	color: #fff;
+}
+.clients{
+	text-align: center;
+	padding: 60px 0px 40px 0px;
+}
+.photo{
+	padding: 10px 5px 40px 5px;
+}
+.feature{
+	text-align: center;
+	background-color: #f8f8f8;
+}
+.feature h1{
+	padding: 30px 0px 0px 0px;
+}
+.feature p{
+	padding: 0px 0px 10px 0px;
+}
+.inner-feature{
+	width: 100%;
+	padding: 40px 35px;
+	text-align: center;
+}
+.icons{
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	margin: 0px auto 25px;
+}
+.inner-feature h5{
+	font-size: 22px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 600;
+	margin: 10px 10px 10px 10px;
+	padding: 0px 0px 10px 0px; 
+}
+.inner-feature p{
+	font-size: 12px;
+	line-height: 22px;
+	color: #000;
+	font-weight: 400;
+}
+.box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 0px 20px 0px;
+}
+.form-box{
+	padding: 0px;
+	border-radius: 5px;
+	background: transparent;
+	border: 1px solid #fff;
+}
+.form-box input{
+	font-size: 18px;
+	color: #fff;
+	padding: 15px 5px;
+	border: 2px;
+	outline: none;
+	background: transparent;
+}
+.form-box button{
+	color: #fff;
+	padding: 15px 30px;
+	font-size: 18px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	background: transparent;
+	cursor: pointer;
+	transition: .3s;
+}
+.form-box button:hover{
+	background: #ed1c24;
+}
+.row{
+	padding: 30px 0px 30px 0px;
+}
+.row .col-lg-4{
+	padding: 0px 50px 0px 50px;
+}
+.price-plan{
+	width: 100%;
+	padding: 0px 0px 50px 0px;
+}
+.pricing-plan .title{
+	text-align: center;
+}
+.price-box{
+	width: 100%;
+	border-radius: 3px;
+	text-align: center;
+}
+.price-box .price{
+	width: 100%;
+	padding: 70px 0px 20px 0px;
+}
+.price-box .price h1{
+	font-size: 40px;
+	font-weight: 500;
+	color: #030375;
+	margin: 0px;
+	line-height: 60px;
+}
+.price-box .price h1 sup{
+	font-size: 60px;
+	font-weight: 700;
+	top: -0.7em;
+}
+.price-box .price p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #030375;
+	margin: 0px;
+	padding: 30px 0px 30px 0px;
+}
+.price-box .price-content{
+	width: 100%;
+}
+.price-box .price-content p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	margin: 40px 0px 40px 0px;
+	line-height: 40px;
+}
+.price-box .price-content .btn-primary{
+	padding: 12px 25px;
+	background: 030375;
+	color: #fff;
+	border: 1px solid #030375;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.btn-primary{
+	background-color: #030375;
+}
+.price-box:hover .price-head h2{
+	color: #030375;
+}
+.price-box:hover .price{
+	background: #030375;
+}
+.price-box:hover .price h1, .price-box:hover .price p{
+	color: #fff;
+}
+.price-box:hover .price-content .btn-primary{
+	background: #fff;
+	color: #030375;
+	border: 1px solid #030375;
+}
+.title-2{
+	text-align: center;
+	padding: 30px 0px 20px 0px;
+}
+.contact {
+	width: 100%;
+	padding: 30px 0px 30px 0px;
+	background-color: #030375;
+	text-align: center;
+	color: #fff;
+	line-height: 50px;
+}
+.contact h1{
+	padding: 50px 0px 10px 0px;
+}
+.contact .title {
+	text-align: center;
+}
+.contact .title h2 {
+	color: #fff;
+}
+.contact .forms .cus-form {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0px 6px 3px;
+    outline: none;
+    color: #fff;
+}
+.contact .btn-light {
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 60px;
+    font-weight: 700;
+    font-size: 12px;
+    border: 1px solid #fff;
+}
+.contact .btn-light:hover ,.contact .btn-light:focus  {
+	background-color: #ed1c24;
+    color: #fff; 
+}
+.footer-section{
+	width: 100%;
+	padding: 30px 0px;
+	background-color: #fff;
+	text-align: center;
+}
+.footer-section p {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	color: #030375;
+	margin: 4px 0px 0px;
+}
